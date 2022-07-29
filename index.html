@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+   
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html" class="nav_logo"
+          ><img
+            src="./photos/photography-portfolio-assets/logo.png"
+            alt="Nav logo"
+        /></a>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#exhibitions">Exhibitions</a></li>
+        </ul>
+        <ul class="nav_socials">
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-twitter-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="uil uil-facebook-f"></i>
+            </a>
+          </li>
+          <li><a href="https://instagram.com" target="_blank"><i class="uil uil-youtube"></i> </a></li>
+        </ul>
+
+        <button class="nav_toggle_btn" id="nav_toggle-open">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button class="nav_toggle_btn" id="nav_toggle-close">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- END OF NAV -->
+
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <div class="header_image-bg"></div>
+          <div class="header_image-lg">
+            <img
+              src="./photos/photography-portfolio-assets/header.jpg"
+              alt="header img"
+            />
+          </div>
+          <div class="header_image-sm">
+            <img
+              src="./photos/photography-portfolio-assets/header.jpg"
+              alt="header img"
+            />
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="header_head">
+            <div class="empty header_empty"></div>
+            <a href="#" class="header_tag">#Best Travel Photographer 2022</a>
+          </div>
+          <h1>See the Beauty of the World through My Lens</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+            beatae quis commodi nesciunt deleniti, voluptatem vel ullam ipsum
+            quas dolores aperiam, nulla illo repudiandae accusantium!
+          </p>
+          <a href="mailto: princearthur2016@gmail.com" class="header_btn_md"
+            >Let's talk</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <div class="header_frames">
+        <div class="header_frame">
+            <img src="./photos/photography-portfolio-assets/frame2.jpg" alt="Header frame2">
+        </div>
+        <div class="header_frame">
+            <img src="./photos/photography-portfolio-assets/frame1.jpg" alt="Header frame1">
+        </div>
+
+    </div>
+    <a href="mailto: princearthur2016@gmail.com" class="contact_btn header_btn">
+        <p>CONTACT - SEND ME AN EMAIL</p>
+        <i class="uil uil-envelope"></i>
+    </a>
+
+ <!-- END OF THE HEADER SECTION -->
+
+
+ <!-- START OF ABOUT SECTION -->
+
+ <section id="about" >
+    <div class="container about_container"> 
+        <h2 class="about_title">About <br> Tommy Hans</h2>
+        <a href="mailto: princearthur2016@gmail.com" class="about_btn contact_btn">
+            <p>CONTACT - SEND ME AN EMAIL</p>
+            <i class="uil uil-envelope"></i>
+        </a>
+    
+        <div class="about_left">
+            <div class="about_img">
+                <div class="about_image-bg"></div>
+                <div class="about_image-lg">
+                    <img src="./photos/photography-portfolio-assets/about.jpg" alt="about Tommy">
+                </div>
+                <div class="about_image-sm" >
+                    <img src="./photos/photography-portfolio-assets/about.jpg" alt="about Tommy">
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="about_right">
+            <div class="empty about_empty"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque doloribus numquam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque doloribus numquam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque doloribus numquam.</p>
+        </div>
+        
+    </div>
+ </section>
+
+ <!-- END OF ABOUT -->
+  
+<section id="gallery">
+    <div class="container gallery_container swiper mySwiper">
+        <div class="gallery_head">
+            <h2 class="gallery_title">My Gallery</h2>
+            <div class="empty gallery_empty"></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nostrum culpa ipsam perspiciatis odio natus similique.</p>
+                <div class="swiper-wrapper">
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery7.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery1.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery4.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery5.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery8.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery8.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery6.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery3.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery2.jpg" alt="">
+                  </article>
+                  <article class="swiper-slide">
+                    <img src="./photos/photography-portfolio-assets/gallery9.jpg" alt="">
+                  </article>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+       
+    </div>
+    
+</section>
+
+<section id="exhibitions">
+    <div class="container exhibitions_container">
+        <h2 class="exhibitions_title">Exhibitions</h2>
+        <div class="empty exhibitions_empty"></div>
+    </div>
+    <div class="exhibitions_head">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ullam numquam necessitatibus praesentium eius tempore?
+        </p>
+        <a href="mailto: princearthur2016@gmail.com" class="exhibitions_btn contact_btn ">
+            <p>CONTACT - SEND ME AN EMAIL</p>
+            <i class="uil uil-envelope"></i>
+        </a>
+    </div>
+    <div class="exhibitions_gallery">
+        <article>
+            <img src="./photos/photography-portfolio-assets/e1.jpg" alt="">
+        </article>
+        <article>
+            <img src="./photos/photography-portfolio-assets/e2.jpg" alt="">
+        </article>
+        <article>
+            <img src="./photos/photography-portfolio-assets/e3.jpg" alt="">
+        </article>
+        <article>
+            <img src="./photos/photography-portfolio-assets/e4.jpg" alt="">
+        </article>
+        <article>
+            <img src="./photos/photography-portfolio-assets/e5.jpg" alt="">
+        </article>
+        <article>
+            <img src="./photos/photography-portfolio-assets/e5.jpg" alt="">
+        </article>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer_container">
+        <div class="footer_head">
+            <h2 class="footer_title">princearthur2016@gmail.com</h2>
+            <a href="mailto:princearthur@gmail.com" class="footer_btn">
+                <i class="uil uil-envelope"></i>
+            </a>
+        </div>
+        <ul class="footer_links">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+                <a href="#exhibitions">Exhibitions</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./index.js" defer></script>
+  </body>
+</html>
